@@ -29,8 +29,6 @@ public class LoginActivity extends AppCompatActivity {
         txtSenha = findViewById(R.id.txtSenha);
         lblCadastraUsuario = findViewById(R.id.lblCadastrarUsuario);
 
-
-
         btnSair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

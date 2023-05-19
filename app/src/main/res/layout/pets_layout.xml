@@ -7,9 +7,33 @@
     tools:context=".PetsActivity">
 
     <com.google.android.material.tabs.TabLayout
+        android:contentDescription="Tab"
+        android:id="@+id/idTablayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idTabCachorro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cachorro" />
 
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idTabGato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gato" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idTabRato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rato" />
     </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idViewPage"
+        android:layout_below="@+id/idTablayout"/>
 </RelativeLayout>

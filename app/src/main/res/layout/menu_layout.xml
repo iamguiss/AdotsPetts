@@ -4,89 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MenuActivity"
     android:background="@color/black"
-    >
-
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="25dp"
-    android:orientation="horizontal"
-    android:layout_gravity="center"
-    android:layout_marginLeft="15dp">
-
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="180dp"
-        app:cardBackgroundColor="@color/black"
-        android:layout_height="200dp">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageView
-
-                android:layout_width="150dp"
-                android:layout_height="170dp"
-                android:layout_gravity="center"
-                android:scaleType="centerCrop"
-                android:src="@drawable/adota" />
-
-            <TextView
-                android:id="@+id/idMenuPets"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/righteousregular"
-                android:text="Pets"
-                android:textAllCaps="true"
-                android:textColor="#FAEAD0"
-                android:textSize="25sp"
-                android:textStyle="bold|italic" />
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="180dp"
-        android:layout_height="200dp"
-        app:cardBackgroundColor="@color/black">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="150dp"
-                android:layout_height="170dp"
-                android:layout_gravity="center"
-                android:scaleType="centerCrop"
-                android:src="@drawable/alimentoos" />
-
-            <TextView
-                android:id="@+id/idMenuAlimentos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:fontFamily="@font/righteousregular"
-                android:text="alimentos"
-                android:textAllCaps="true"
-                android:textColor="#50C7E9"
-                android:textSize="25sp"
-                android:textStyle="bold|italic" />
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-</LinearLayout>
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_gravity="center"
-        android:layout_marginLeft="15dp">
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/black">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/adota" />
+
+                <TextView
+                    android:id="@+id/idMenuPets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/righteousregular"
+                    android:text="Pets"
+                    android:textAllCaps="true"
+                    android:textColor="#FAEAD0"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            app:cardBackgroundColor="@color/black">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/alimentoos" />
+
+                <TextView
+                    android:id="@+id/idMenuAlimentos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/righteousregular"
+                    android:text="alimentos"
+                    android:textAllCaps="true"
+                    android:textColor="#50C7E9"
+                    android:textSize="25sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="180dp"
@@ -154,9 +153,9 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_gravity="center"
-        android:layout_marginLeft="15dp">
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
             android:layout_width="180dp"
@@ -197,8 +196,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                >
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="150dp"
@@ -208,20 +206,20 @@
                     android:src="@drawable/loca" />
 
                 <TextView
-                        android:id="@+id/idMenuLocalizar"
+                    android:id="@+id/idMenuLocalizar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/righteousregular"
-                    android:text="Localização"
+                    android:text="Vacina"
                     android:textAllCaps="true"
-                    android:textColor="#FEFEFE"
+                    android:textColor="#96DFFD"
                     android:textSize="25sp"
                     android:textStyle="bold|italic" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
-    </LinearLayout>
+</LinearLayout>
 
 
 
