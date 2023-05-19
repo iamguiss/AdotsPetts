@@ -36,13 +36,14 @@
                 android:src="@drawable/adota" />
 
             <TextView
+                android:id="@+id/idMenuPets"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/righteousregular"
                 android:text="Pets"
                 android:textAllCaps="true"
-                android:textColor="#2448B5"
+                android:textColor="#FAEAD0"
                 android:textSize="25sp"
                 android:textStyle="bold|italic" />
         </LinearLayout>
@@ -63,16 +64,17 @@
                 android:layout_height="170dp"
                 android:layout_gravity="center"
                 android:scaleType="centerCrop"
-                android:src="@drawable/adota" />
+                android:src="@drawable/alimentoos" />
 
             <TextView
+                android:id="@+id/idMenuAlimentos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/righteousregular"
-                android:text="Pets"
+                android:text="alimentos"
                 android:textAllCaps="true"
-                android:textColor="#CF0000"
+                android:textColor="#50C7E9"
                 android:textSize="25sp"
                 android:textStyle="bold|italic" />
         </LinearLayout>
@@ -101,16 +103,17 @@
                     android:layout_height="170dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/adota" />
+                    android:src="@drawable/doa" />
 
                 <TextView
+                    android:id="@+id/idMenuDoacoes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/righteousregular"
-                    android:text="Pets"
+                    android:text="Doações"
                     android:textAllCaps="true"
-                    android:textColor="#6735B8"
+                    android:textColor="#D13D31"
                     android:textSize="25sp"
                     android:textStyle="bold|italic" />
             </LinearLayout>
@@ -131,16 +134,17 @@
                     android:layout_height="170dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/adota" />
+                    android:src="@drawable/servico" />
 
                 <TextView
+                    android:id="@+id/idMenuServicos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/righteousregular"
-                    android:text="Pets"
+                    android:text="Serviço"
                     android:textAllCaps="true"
-                    android:textColor="#FF6969"
+                    android:textColor="#D9D9D9"
                     android:textSize="25sp"
                     android:textStyle="bold|italic" />
             </LinearLayout>
@@ -169,16 +173,17 @@
                     android:layout_height="170dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/adota" />
+                    android:src="@drawable/vacina" />
 
                 <TextView
+                    android:id="@+id/idMenuVacina"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/righteousregular"
-                    android:text="Pets"
+                    android:text="Vacina"
                     android:textAllCaps="true"
-                    android:textColor="#2ABCA6"
+                    android:textColor="#96DFFD"
                     android:textSize="25sp"
                     android:textStyle="bold|italic" />
             </LinearLayout>
@@ -200,16 +205,17 @@
                     android:layout_height="170dp"
                     android:layout_gravity="center"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/adota" />
+                    android:src="@drawable/loca" />
 
                 <TextView
+                        android:id="@+id/idMenuLocalizar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/righteousregular"
-                    android:text="Pets"
+                    android:text="Localização"
                     android:textAllCaps="true"
-                    android:textColor="#A5CF0D"
+                    android:textColor="#FEFEFE"
                     android:textSize="25sp"
                     android:textStyle="bold|italic" />
             </LinearLayout>
